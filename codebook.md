@@ -12,8 +12,8 @@
 
 	* The second column is subject(subjects 1-30). 
 
-	* Columns 3-88 are data representing means for different variables (86 variables/columns). These 86 variables are variables with "mean" or "std" in the designation, selected from 561 variables in the original X data sets. The variables are renamed for the tidydata, adding "meanof" to the beginning of each original variableby using paste0() function, to reflect that the numerical values n the tidy data set are means of either means or standard deviations of the original data.
+	* Columns 3-88 are data representing means for different variables (86 variables/columns). These 86 variables are variables with "mean" or "std" in the designation, selected from 561 variables in the original X data sets. The variables are renamed for the tidydata, adding "meanof" to the beginning of each original variableby using paste0() function, to reflect that the numerical values in the tidy data set are means of either means or standard deviations of the original data.
 
 
 
-* This codebook is very brief, mainly for the purpose of practicing tidying up data. I do not understand the physical or physiological meanings of the data, preventing me from giving more detail description, such as units and the meanings.vHad I understand the physical meaning of the data, my codebook would have been more detailed.
+* This codebook is very brief, mainly for the purpose of practicing tidying up data. I do not understand the physical or physiological meanings of the data, preventing me from giving more detail description, such as units and the meanings. Had I understand the physical meaning of the data, my codebook would have been more detailed.

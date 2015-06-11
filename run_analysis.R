@@ -28,6 +28,11 @@ run_analysis<-function(){
 
 	#subset combined data set to select out columns with names containing either "mean" or "std"
 	mean_sd_data<-select(mydata, contains("mean"), contains("std"))
+
+	#adding "meanof" to the front of each variable name, preparing for the appropriate naming
+	#of the tidy data set
+	varnames<-names(mean_sd_data)
+	names(mean_sd_data)<-paste0("meanof",varnames)
 	
 	rm("mydata")	# free up the memory when the function is executing
 

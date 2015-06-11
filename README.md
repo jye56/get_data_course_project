@@ -14,6 +14,8 @@
 	* 3. make a data.frame that contains the subjects.
 	* 4. The final synthesis: combine activity(activity),subject(subjectdata) and the subsetted X data(mean_sd_data) to form a complete data.frame, group the data.frame by activity and subject,summarize the data, save as a .txt file to the working directory and return the summary
 
+* For more detailed information on how the script processes the data, please see comments within the script.
+	
 * (Incidentally, one can also use function aggregate() to solve this problem; it uses two lists and one data frame, so the underlying data structure would be different. aggregate(mydata,by=list(activitylist,subjectlist),FUN="mean"). detail not shown )
 
 * Acknowledgement: I would like to thank community TA David Hood for his post "David's personal course project FAQ" (https://class.coursera.org/getdata-015/forum/thread?thread_id=26), which is of tremendous help for me to get started. I would like to thank community TA Richard Aaron and for fellow student Antoine Chopin for very helpful discussions. I would like to thank you, my fellow student, for spending time to evaluate my project.

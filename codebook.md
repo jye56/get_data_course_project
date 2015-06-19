@@ -16,4 +16,4 @@
 
 
 
-* This codebook is very brief, mainly for the purpose of practicing tidying up data. I do not understand the physical or physiological meanings of the data, preventing me from giving more detail description, such as units and the meanings. Had I understand the physical meaning of the data, my codebook would have been more detailed.
+* This codebook is very brief, mainly for the purpose of practicing tidying up data. I do not understand the physical or physiological meanings of the data, preventing me from giving more detail description, such as units and the meanings. Had I understood the physical meaning of the data, my codebook would have been more detailed.
